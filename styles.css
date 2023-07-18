@@ -1,0 +1,81 @@
+/* styles.css */
+
+:root {
+    --primary-color: rgb(247, 244, 244);
+    --secondary-color: #1bd1fa;
+  }
+  
+  body {
+    background-color: var(--primary-color);
+    color: #0f0e0e; /* white text color for better contrast */
+  }
+  
+  header {
+    background-color: var(--secondary-color);
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #0c0c0c; /* black heading color on the header */
+  }
+  
+  nav ul li {
+    display: line by line;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #0c0c0c; /* white link color on the header */
+    text-decoration: none;
+  }
+  
+  main {
+    color: #0d0c0c;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #0c0b0b;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #dfd5d5; /* white text color on the footer */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Center the photo horizontally */
+#profile-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Optionally, limit the width of the photo */
+  #profile-photo {
+    display: inline;
+    max-width: 100%;
+  }
+  
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: auto;
+    text-align: center;
+  }
+
+  .info-box {
+    border: 1px solid #f2f1f1;
+    padding: 20px;
+    background-color: #e7e1e1;
+  }
